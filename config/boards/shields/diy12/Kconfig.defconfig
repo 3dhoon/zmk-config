@@ -2,5 +2,4 @@ if SHIELD_DIY12
 
 config ZMK_KEYBOARD_NAME
     default "diy12"
-
 endif
