@@ -5,6 +5,22 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
+    behaviors {
+        home_row: home_row {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOME_ROW";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
+            flavor = "balanced";
+            hold-trigger-key-positions = <51 52 53 54 55 56 25 26 27 28 29 30 31 32 33 34>;
+            hold-trigger-on-release;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
