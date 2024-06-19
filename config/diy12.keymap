@@ -14,7 +14,7 @@
 
 / {
     behaviors {
-        home_row: home_row {
+        hm: home_row {
             compatible = "zmk,behavior-hold-tap";
             label = "HOME_ROW";
             bindings = <&kp>, <&kp>;
