@@ -6,8 +6,8 @@
 
 #define QUICK_TAP_MS 175
 
-&lt {  // layer-tap config
-    flavor = "balanced";
+&lt {
+    flavor = "tap-preferred";
     tapping-term-ms = <200>;
     quick-tap-ms = <QUICK_TAP_MS>;
 };
@@ -24,7 +24,7 @@
             quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             flavor = "balanced";
-            hold-trigger-key-positions = <51 52 53 54 55 56 25 26 27 28 29 30 31 32 33 34>;
+            hold-trigger-key-positions = <25 26 27 28 31 32 33 34>;
             hold-trigger-on-release;
         };
     };
@@ -41,11 +41,11 @@
             // |ADJUST | LCTL | LALT | LGUI | LOWR | SPACE| SPACE |  RAIS | LARW | DARW | UARW  | RARW  |
 
             bindings = <
-&kp ESC    &kp N1        &kp N2        &kp N3           &kp N4     &kp N5      &kp N6  &kp N7       &kp N8       &kp N9         &kp N0    &kp BSPC
-&kp TAB    &kp Q         &kp W         &kp E            &kp R      &kp T       &kp Y   &kp U        &kp I        &kp O          &kp P     &kp BSLH
-&kp LCTRL  &kp A         &kp S         &kp D            &kp F      &kp G       &kp H   &kp J        &kp K        &kp L          &kp SEMI  &kp SQT
-&none      &kp LSHFT     &kp Z         &kp X            &kp C      &kp V       &kp B   &kp N        &kp M        &kp COMMA      &kp DOT   &kp FSLH
-&none      &kp LEFT_GUI  &kp C_VOL_DN  &kp C_VOLUME_UP  &lt 1 DEL  &lt 2 BSPC  &none   &lt 3 ENTER  &lt 4 SPACE  &kp RIGHT_ALT  &kp LEFT  &kp RIGHT
+&kp ESC    &kp N1        &kp N2        &kp N3           &kp N4       &kp N5      &kp N6  &kp N7       &kp N8       &kp N9         &kp N0    &kp BSPC
+&kp TAB    &kp Q         &kp W         &kp E            &kp R        &kp T       &kp Y   &kp U        &kp I        &kp O          &kp P     &kp BSLH
+&kp LCTRL  &kp A         &kp S         &kp D            &hm LCTRL F  &kp G       &kp H   &kp J        &kp K        &kp L          &kp SEMI  &kp SQT
+&none      &kp LSHFT     &kp Z         &kp X            &kp C        &kp V       &kp B   &kp N        &kp M        &kp COMMA      &kp DOT   &kp FSLH
+&none      &kp LEFT_GUI  &kp C_VOL_DN  &kp C_VOLUME_UP  &lt 1 DEL    &lt 2 BSPC  &none   &lt 3 ENTER  &lt 4 SPACE  &kp RIGHT_ALT  &kp LEFT  &kp RIGHT
             >;
         };
 
