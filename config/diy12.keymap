@@ -21,7 +21,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <280>;
-            quick-tap-ms = <175>;
+            quick-tap-ms = <QUICK_TAP_MS>;
             require-prior-idle-ms = <150>;
             flavor = "balanced";
             hold-trigger-key-positions = <25 26 27 28 31 32 33 34>;
@@ -103,9 +103,9 @@
         symbol_layer {
             bindings = <
 &trans  &trans     &trans     &trans    &trans    &trans    &trans     &trans    &trans     &trans     &trans     &trans
-&trans  &kp GRAVE  &kp EXCL   &kt AT    &kt HASH  &kt DLLR  &kt CARET  &kt AMPS  &kp BSLH   &kt PIPE   &kt PRCNT  &trans
-&trans  &kt UNDER  &kp EQUAL  &kt LPAR  &kt RPAR  &kp APOS  &kt EQUAL  &kt PLUS  &kt ASTRK  &kt MINUS  &kt SLASH  &trans
-&trans  &kt TILDE  &trans     &kp LBKT  &kp RBKT  &kt DQT   &trans     &kt LBRC  &kp RBRC   &kt LT     &kt GT     &trans
+&trans  &kp GRAVE  &kp EXCL   &kp AT    &kp HASH  &kp DLLR  &kp CARET  &kp AMPS  &kp BSLH   &kp PIPE   &kp PRCNT  &trans
+&trans  &kp UNDER  &kp EQUAL  &kp LPAR  &kp RPAR  &kp APOS  &kp EQUAL  &kp PLUS  &kp ASTRK  &kp MINUS  &kp SLASH  &trans
+&trans  &kp TILDE  &trans     &kp LBKT  &kp RBKT  &kp DQT   &trans     &kp LBRC  &kp RBRC   &kp LT     &kp GT     &trans
 &trans  &trans     &trans     &trans    &trans    &trans    &trans     &trans    &trans     &trans     &trans     &trans
             >;
         };
