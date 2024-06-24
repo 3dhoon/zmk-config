@@ -95,11 +95,11 @@
 
         game_layer {
             bindings = <
-&kp ESC         &kp N1   &kp N2  &kp N3        &kp N4     &kp N5     &kp N6  &kp N7  &kp N8  &kp N9     &kp N0   &kt LEFT_SHIFT
-&kp LEFT_SHIFT  &kp Q    &kp W   &kp E         &kp Q      &kp T      &kp Y   &kp U   &kp I   &kp O      &kp P    &mkp RCLK
-&kp LEFT_SHIFT  &kp A    &kp S   &kp D         &kp F      &kp G      &kp H   &kp J   &kp K   &kp L      &trans   &trans
-&kp LCTRL       &kp TAB  &kp Z   &kp X         &kp SPACE  &kp SPACE  &kp B   &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH
-&trans          &trans   &trans  &kp LEFT_ALT  &kp SPACE  &kp SPACE  &trans  &kp I   &trans  &trans     &trans   &tog 6
+&kp ESC         &kp N1   &kp N2             &kp N3           &kp N4     &kp N5     &kp N6  &kp N7        &kp N8  &kp N9     &kp N0   &kt LEFT_SHIFT
+&kp LEFT_SHIFT  &kp Q    &kp W              &kp E            &kp Q      &kp T      &kp Y   &kp U         &kp I   &kp O      &kp P    &mkp RCLK
+&kp LEFT_SHIFT  &kp A    &kp S              &kp D            &kp F      &kp G      &kp H   &kp J         &kp K   &kp L      &trans   &trans
+&kp LCTRL       &kp TAB  &kp Z              &kp X            &kp SPACE  &kp SPACE  &kp B   &kp N         &kp M   &kp COMMA  &kp DOT  &kp FSLH
+&trans          &trans   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp SPACE  &kp SPACE  &trans  &kp LEFT_ALT  &trans  &trans     &trans   &tog 6
             >;
         };
     };
