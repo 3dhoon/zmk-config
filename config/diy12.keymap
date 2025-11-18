@@ -82,11 +82,11 @@
 
         symbol_layer {
             bindings = <
-&trans     &trans           &trans          &trans    &trans      &trans       &trans     &trans    &trans     &trans     &trans     &trans
-&kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN     &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPS  &kp BSLH   &kp PIPE   &trans     &trans
-&trans     &trans           &kp UNDERSCORE  &kp LPAR  &kp RPAR    &kp EQUAL    &kp EQUAL  &kp PLUS  &kp ASTRK  &kp MINUS  &kp SLASH  &kp DQT
-&none      &trans           &kp TILDE       &trans    &kp LBRC    &kp RBRC     &kp DQT    &trans    &kp LBKT   &kp RBKT   &kp LT     &kp GT
-&none      &trans           &trans          &trans    &trans      &kp EQUAL    &none      &trans    &trans     &trans     &trans     &trans
+&trans     &trans           &trans          &trans    &trans      &trans       &trans     &trans            &trans             &trans         &trans            &trans
+&kp GRAVE  &kp EXCLAMATION  &kp AT_SIGN     &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPS          &kp BSLH           &kp PIPE       &trans            &trans
+&trans     &trans           &kp UNDERSCORE  &kp LPAR  &kp RPAR    &kp EQUAL    &kp EQUAL  &kp PLUS          &kp ASTRK          &kp MINUS      &kp SLASH         &kp DQT
+&none      &trans           &kp TILDE       &trans    &kp LBRC    &kp RBRC     &kp DQT    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH
+&none      &trans           &trans          &trans    &trans      &kp EQUAL    &none      &trans            &trans             &trans         &trans            &trans
             >;
         };
 
