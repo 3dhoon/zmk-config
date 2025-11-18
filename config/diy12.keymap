@@ -46,7 +46,7 @@
 &kp TAB         &kp Q           &kp W                       &kp E                     &kp R        &kp T       &kp Y   &kp U        &kp I             &kp O            &kp P                   &kp PIPE
 &mt LCTRL CAPS  &hm LEFT_GUI A  &hm LEFT_ALT S              &hm LEFT_SHIFT D          &hm LCTRL F  &kp G       &kp H   &hm LCTRL J  &hm LEFT_SHIFT K  &hm LEFT_ALT L   &hm LEFT_GUI SEMICOLON  &kp SQT
 &none           &kp LSHFT       &kp Z                       &kp X                     &kp C        &kp V       &kp B   &kp N        &kp M             &kp COMMA        &kp DOT                 &kp FSLH
-&none           &kp LCTRL       &mt LEFT_WIN C_VOLUME_DOWN  &mt LEFT_ALT C_VOLUME_UP  &lt 1 DEL    &lt 2 BSPC  &none   &lt 3 ENTER  &lt 4 SPACE       &lt 2 RIGHT_ALT  &lt 5 LEFT              &kp RIGHT
+&none           &kp LCTRL       &mt LEFT_WIN C_VOLUME_DOWN  &mt LEFT_ALT C_VOLUME_UP  &lt 1 DEL    &lt 2 BSPC  &none   &lt 3 ENTER  &lt 4 SPACE       &lt 2 RIGHT_ALT  &kp LEFT_ARROW          &kp RIGHT
             >;
         };
 
