@@ -36,7 +36,7 @@
             key-positions = <55 56>;
         };
 
-        enter {
+        enter_combo {
             bindings = <&kp ENTER>;
             key-positions = <19 20>;
         };
