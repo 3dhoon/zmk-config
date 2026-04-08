@@ -35,11 +35,6 @@
             bindings = <&kp RIGHT_ALT>;
             key-positions = <55 56>;
         };
-
-        enter_combo {
-            bindings = <&kp ENTER>;
-            key-positions = <19 20>;
-        };
     };
 
     keymap {
